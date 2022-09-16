@@ -8,21 +8,264 @@
     <!----- bootstrap ------>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!------- CSS ------->
+    <link rel="stylesheet" href="./assets/index.css">
 </head>
 
 <body>
-   
+    <header>
+        <nav>
+            <div class="bg-dark p-3">
+                <ul class="nav  justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#herramientas">Herramientas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactame">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <!------ INICIO---- -->
+        <section class="mb-5" id="inicio">
+            <div class="container mt-5 pt-2">
+                <div class="row">
+                    <div class="col-4 col-md-4 col-lg-4">
+                        <span><img class="rounded-circle img-fluid" src="./img/perfil.jpg" alt=""></span>
+                    </div>
 
+                    <div class="col-8 col-md-8 col-lg-8">
+                        <p class="">
+                        <h1 class="mb-5  fw-normal ">Hola me llamo <strong>JOSUE PEREYRA</strong>.</h1>
+                        </p>
 
+                        <p class="h2 fw-normal mb-5"> Soy Ing. Industrial especializado en desarrollado <strong>web Full
+                                stack</strong> con conocimientos en <strong>html,Css,Javascript,react</strong></p>
 
+                        <button class="btn btn-primary btn-lg"><a class="text-decoration-none text-white" href="#herramientas">Ver
+                                mas tecnologia usada</a></button>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+        </section>
 
+        <!-- Herramientas -->
+        <hr />
 
+        <div class="container-fluid bg-secondary   bg-opacity-10">
+            <section class="herramienta-container" id="herramientas">
+                <div class="container text-center pt-5 mb-5">
+                    <h2>
+                        <strong>Lenguajes que uso para el desarollo web</strong>
+                    </h2>
+                    <p class="fw-lighter fs-4">Los mas usados</p>
+                </div>
+                <br>
+                <!-- cards -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 ms-5 me-5">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/html.png" class="card-img-top" height="250px" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title"> Html5</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/css.png" class="card-img-top" height="250px" alt="css">
+                            <div class="card-body">
+                                <h5 class="card-title">Css</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/JS.png" class="card-img-top" height="250px" alt="js">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/1280px-React-icon.svg.png" class="card-img-top" height="250px" alt="react">
+                            <div class="card-body">
+                                <h5 class="card-title">React</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center mt-5">
+                    <button class="btn btn-primary btn-lg mb-5">
+                        <a class="text-decoration-none text-white" href="#trabajos">Ver los trabajos recientes</a>
+                    </button>
+                </div>
+            </section>
+        </div>
+        <hr class="mt-0">
 
+        <!---------------------Trabajos -------------------------->
+        <div class="container-fluid">
+            <section id="trabajos">
+                <div class="container text-center mt-5">
+                    <h2><strong>Aquí hay algunos trabajos que hice recientemente</strong></h2>
+                    <p class="fw-lighter fs-4 mb-5">Portafolio</p>
+                </div>
+                <!-- cards-trabajo -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 ms-5 me-5">
+                    <div class="col">
+                        <div class="card h-100 ">
+                            <img src="./img/proyectos/pro01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-01</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/proyectos/pro02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-02</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/proyectos/pro03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-03</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/proyectos/pro04.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-04</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/proyectos/pro05.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-05</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/proyectos/pro06.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Proyecto-06</h5>
+                                <p class="card-text">...</p>
+                            </div>
+                            <div class="container text-center mb-4">
+                                <button class="boton"><a class="text-decoration-none text-white" href="#">Ver
+                                        Demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center mt-5 mb-5">
+                    <button class="btn btn-primary btn-lg mt-5 mb-5"><a class="text-decoration-none text-white"
+                            href="#contactame">Ponte contacto conmigo</a></button>
+                </div>
+            </section>
+        </div>
 
+        <!--------- contactame---- -->
+        <footer id="contactame">
+            <div class="container-fluid bg-dark bg-opacity-0">
+                <div class="container">
+                    <div class="pt-5 mb-5">
+                        <h2 class="text-white text-center">Escribeme Mensaje o consulta de trabajo.</h2>
+                        <p class="fs-3 text-center">Llena tus datos</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col ">
+                            <input type="text" name="name" class="form-control bg-dark" placeholder="Nombre"
+                                aria-label="First name" style="height:50px">
+                        </div>
+                        <div class="col ">
+                            <input type="text" name="email" class="form-control bg-dark" placeholder="Correo"
+                                aria-label="Last name" style="height:50px">
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control bg-dark" placeholder="Dejame un mensaje"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label class="text-white " for="floatingTextarea2">mensaje</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col mb-5">
+                        <button class="btn btn-primary btn-lg">enviar formulario</button>
+                        <button class="btn btn-dark btn-lg">Limpiar formulario</button>
+                    </div>
+                </div>
+                <!-- icons -->
+                <hr class="separador mb-3">
+                <div class="row text-center">
+                    <p class="text-white mb-1">Encuéntrame en..</p>
+                    <div class="ico-container">
+                        <a href="#"><i class="bi bi-facebook me-3"></i></a>
+                        <a href="#"><i class="bi bi-instagram me-3" style="color:#f70268a6;"></i></a>
+                        <a href=""><i class="bi bi-github me-3" style="color:#1d1a1a ;"></i></a>
+                        <a href=""><i class="bi bi-linkedin" style="color: #0073b2 ;"></i></a>
+                    </div>
+                </div>
+                <hr class="separador mt-3">
+                <div class="text-center mt-3 pb-3">
+                    <p class=" fs-6 fw-lighter text-white"> © Untitled. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
 
-
-
+    </main>
 
 
 
