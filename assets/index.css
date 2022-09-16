@@ -67,3 +67,17 @@ hr {
 footer {
     background: black;
 }
+
+.separador{
+    border: 0; 
+    border-top: 1px solid #999; 
+    border-bottom: 1px solid #333; 
+    height:0;
+    margin: 0 25% 0 25%;
+}
+
+/* iconos bootstrap */
+.ico-container i {
+    font-size: 50px;
+
+}
